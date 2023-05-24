@@ -7,11 +7,12 @@ import {
   MobileIcon,
 } from "./style.js";
 import { Link } from "react-router-dom";
-import { FaEarlybirds, FaBars } from "react-icons/fa";
+import { FaEarlybirds, FaBars, FaTimes } from "react-icons/fa";
 import "./Link.css";
-import React from "react";
+import { useState } from "react";
 
 const NavBar = () => {
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
   return (
     <Container>
       <Wrapper>
@@ -19,26 +20,26 @@ const NavBar = () => {
           <FaEarlybirds />
           <p>Barbazul</p>
         </LogoContainer>
-        <MobileIcon>
-          <FaBars />
+        <MobileIcon onClick={() => setShowMobileMenu(!showMobileMenu)}>
+          {showMobileMenu ? <FaTimes /> : <FaBars />}
         </MobileIcon>
-        <Menu>
-          <MenuItem>
+        <Menu open={showMobileMenu}>
+          <MenuItem onClick={() => setShowMobileMenu(!showMobileMenu)}>
             <Link className="Link" to="/">
               Home
             </Link>
           </MenuItem>
-          <MenuItem>
+          <MenuItem onClick={() => setShowMobileMenu(!showMobileMenu)}>
             <Link className="Link" to="/">
               Staff
             </Link>
           </MenuItem>
-          <MenuItem>
+          <MenuItem onClick={() => setShowMobileMenu(!showMobileMenu)}>
             <Link className="Link" to="/">
               Galeria
             </Link>
           </MenuItem>
-          <MenuItem>
+          <MenuItem onClick={() => setShowMobileMenu(!showMobileMenu)}>
             <Link className="Link" to="/">
               Contacto
             </Link>

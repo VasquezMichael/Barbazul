@@ -20,12 +20,15 @@ export const Wrapper = styled.div`
 export const LogoContainer = styled.div`
   align-items: center;
   display: flex;
-  font-size: 1.7rem;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  margin-left: 20px;
+  font-size: 2rem;
+  font-family: Newsreader;
+  margin-left: 30px;
+  p {
+    color: #fdcd52;
+  }
   @media screen and (max-width: 690px) {
-    margin-left: 10px;
+    margin-left: 20px;
+    font-size: 1.7rem;
   }
 `;
 
@@ -52,10 +55,11 @@ export const Menu = styled.ul`
 
 export const MenuItem = styled.li`
   height: 100%;
-  padding: 10px;
-  font-size: 1.1rem;
+  padding: 18px;
+  font-size: 1.3rem;
   @media screen and (max-width: 690px) {
     width: 100%;
+    font-size: 1.1rem;
     height: 70px;
     display: flex;
     justify-content: center;
@@ -72,7 +76,7 @@ export const MobileIcon = styled.div`
     align-items: center;
 
     svg {
-      fill: #204096;
+      fill: #fdcd52;
       margin-right: 0.5rem;
       font-size: 1.8rem;
     }

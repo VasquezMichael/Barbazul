@@ -17,8 +17,8 @@ const NavBar = () => {
     <Container>
       <Wrapper>
         <LogoContainer>
-          <FaEarlybirds />
-          <p>Barbazul</p>
+          {/* <FaEarlybirds /> */}
+          <p>BARBERIA</p>
         </LogoContainer>
         <MobileIcon onClick={() => setShowMobileMenu(!showMobileMenu)}>
           {showMobileMenu ? <FaTimes /> : <FaBars />}
@@ -30,17 +30,22 @@ const NavBar = () => {
             </Link>
           </MenuItem>
           <MenuItem onClick={() => setShowMobileMenu(!showMobileMenu)}>
-            <Link className="Link" to="/">
+            <Link className="Link" to="/servicios">
+              Servicios
+            </Link>
+          </MenuItem>
+          <MenuItem onClick={() => setShowMobileMenu(!showMobileMenu)}>
+            <Link className="Link" to="/staff">
               Staff
             </Link>
           </MenuItem>
           <MenuItem onClick={() => setShowMobileMenu(!showMobileMenu)}>
-            <Link className="Link" to="/">
+            <Link className="Link" to="/galeria">
               Galeria
             </Link>
           </MenuItem>
           <MenuItem onClick={() => setShowMobileMenu(!showMobileMenu)}>
-            <Link className="Link" to="/">
+            <Link className="Link" to="/contacto">
               Contacto
             </Link>
           </MenuItem>

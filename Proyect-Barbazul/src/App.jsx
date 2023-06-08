@@ -1,15 +1,16 @@
 import "./App.css";
-import React from "react";
+
 import { ChakraProvider } from "@chakra-ui/react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import NavBar from "./components/Navbar";
+import NavBar from "./components/NavBar";
+import HomePage from "./components/Home";
 const App = () => {
   return (
     <ChakraProvider>
       <BrowserRouter>
         <NavBar />
         <Routes>
-          <Route path="/" element={<h1>Home</h1>} />
+          <Route path="/" element={<HomePage />} />
         </Routes>
       </BrowserRouter>
     </ChakraProvider>

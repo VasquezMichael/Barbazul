@@ -1,11 +1,17 @@
 import { Container, Title, Button } from "./style.js";
-
+import { Link } from "react-router-dom";
 const Hero = () => {
   return (
-    <Container>
-      <Title>Since 2010.</Title>
-      <Button>Reserva tu turno</Button>
-    </Container>
+    <>
+      <Container className="Hero">
+        <Title>Since 2010.</Title>
+        <Button>
+          <Link to="" target="_blank">
+            RESERVA TU TURNO
+          </Link>
+        </Button>
+      </Container>
+    </>
   );
 };
 

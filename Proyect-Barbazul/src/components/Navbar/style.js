@@ -76,7 +76,7 @@ export const MobileIcon = styled.div`
     align-items: center;
 
     svg {
-      fill: #fdcd52;
+      fill: #fff;
       margin-right: 0.5rem;
       font-size: 1.8rem;
     }

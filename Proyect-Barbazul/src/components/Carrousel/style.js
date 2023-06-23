@@ -5,7 +5,7 @@ export const ContainerCarrousel = styled.div`
   height: 350px;
   background-color: #0f0f0f;
   position: relative;
-  display: inline-block;
+  display: flex;
 `;
 
 export const ContainerButton = styled.div`

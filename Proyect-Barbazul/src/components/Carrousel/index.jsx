@@ -2,7 +2,12 @@ import { useState, useEffect } from "react";
 import img1 from "../../assets/two-image1.jpg";
 import img2 from "../../assets/two-image2.jpg";
 import img3 from "../../assets/two-image3.jpg";
-import { CarrouselImg, ContainerCarrousel, ContainerButton } from "./style.js";
+import {
+  CarrouselImg,
+  ContainerCarrousel,
+  ContainerButton,
+  ContainerImg,
+} from "./style.js";
 const Carrousel = () => {
   const images = [img1, img2, img3];
   const [selectIndex, setSelectIndex] = useState(0);
@@ -42,13 +47,15 @@ const Carrousel = () => {
 
   return (
     <ContainerCarrousel>
-      <CarrouselImg
-        src={images[selectIndex]}
-        className={loaded ? "loaded" : ""}
-        onLoad={() => {
-          setLoaded(true);
-        }}
-      />
+      <ContainerImg>
+        <CarrouselImg
+          src={images[selectIndex]}
+          className={loaded ? "loaded" : ""}
+          onLoad={() => {
+            setLoaded(true);
+          }}
+        />
+      </ContainerImg>
       <ContainerButton>
         <button onClick={previus}>{"<<<"}</button>
         <button onClick={next}>{">>>"}</button>

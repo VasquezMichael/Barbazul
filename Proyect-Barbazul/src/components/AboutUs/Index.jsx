@@ -12,11 +12,17 @@ const AboutUs = () => {
       <Title>BARBERIA</Title>
       <TitleAboutUs>Barberia nos acompaña desde el año 2010</TitleAboutUs>
       <Parragraf>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-        neque cumque labore facilis doloremque dolorum accusamus blanditiis fuga
-        ut, placeat tenetur dolorem unde doloribus deserunt ipsam illo beatae
-        quis fugiat.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, aut, dicta
+        unde, placeat at magni tempora possimus voluptatibus odio inventore
+        incidunt nulla eligendi soluta deserunt nobis quae eius? Enim, autem.
       </Parragraf>
+      <Parragraf>
+        <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, aut, dicta
+        unde, placeat at magni tempora possimus voluptatibus odio inventore
+        incidunt nulla eligendi soluta deserunt nobis quae eius? Enim, autem.
+      </Parragraf>
+
       <Parragraf>
         <br />
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos

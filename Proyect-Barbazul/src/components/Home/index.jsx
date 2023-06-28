@@ -1,16 +1,15 @@
 import React from "react";
 import Hero from "../Hero";
-import Carrousel from "../Carrousel";
-import CarrouselWithPrices from "../CarrouselWithPrices";
-import AboutUs from "../AboutUs";
+import AboutUsWithCarrousel from "../AboutUs-Carrousel";
+import { Home } from "./style.js";
+import OurServices from "../OurServices";
 const HomePage = () => {
   return (
-    <>
+    <Home>
       <Hero />
-      <Carrousel />
-      <AboutUs />
-      {/* <CarrouselWithPrices /> */}
-    </>
+      <AboutUsWithCarrousel />
+      <OurServices />
+    </Home>
   );
 };
 

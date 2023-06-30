@@ -6,8 +6,12 @@ export const ContainerAboutUs = styled.section`
   width: 100%;
   background-color: #0f0f0f;
   color: #fff;
-  padding: 20px;
   font-family: Newsreader;
+
+  @media screen and (min-width: 690px) {
+    width: 80%;
+    margin-left: 20px;
+  }
 `;
 
 export const Title = styled.h2`

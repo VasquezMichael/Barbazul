@@ -7,14 +7,27 @@ import {
   MobileIcon,
 } from "./style.js";
 import { Link } from "react-router-dom";
-import { FaEarlybirds, FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 import "./Link.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const NavBar = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 100;
+      setScrolled(isScrolled);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <Container>
+    <Container className={scrolled ? "scrolled" : ""}>
       <Wrapper>
         <LogoContainer>
           {/* <FaEarlybirds /> */}

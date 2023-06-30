@@ -5,10 +5,12 @@ const Description = () => {
     <ContainerDescriptions>
       <h2>Servicios</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officia
-        reprehenderit nulla rem explicabo, dignissimos, iusto ut delectus earum,
-        cum tenetur distinctio expedita?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ex
+        excepturi officiis dolorem eius tempora vitae explicabo nihil possimus a
+        minima placeat, error aliquid quaerat maxime dolore nam architecto
+        necessitatibus.
       </p>
+      <p id="Span">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
     </ContainerDescriptions>
   );
 };

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const ContainerServices = styled.div`
+  width: 100%;
   font-family: Newsreader;
   li {
     list-style: none;
@@ -11,7 +12,7 @@ export const ContainerServices = styled.div`
   }
 
   .icon {
-    width: 70px;
+    width: 50px;
     height: 50px;
     display: flex;
     align-items: center;
@@ -20,7 +21,7 @@ export const ContainerServices = styled.div`
     font-size: 25px;
     border-radius: 50%;
     border: 1.3px solid #fdcd52;
-    margin: 0 15px 0px 0px;
+    margin: 0 20px 0px 0px;
   }
 
   .description {
@@ -33,5 +34,8 @@ export const ContainerServices = styled.div`
       color: #8d8d8d;
       line-height: 1.3;
     }
+  }
+  @media screen and (min-width: 690px) {
+    margin-left: 20px;
   }
 `;

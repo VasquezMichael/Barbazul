@@ -8,10 +8,10 @@ export const ContainerCarrousel = styled.div`
   width: 100%;
   height: 100%;
 
-  background-color: #0f0f0f;
   @media screen and (min-width: 690px) {
     width: 80%;
     height: 432px;
+    margin-right: 20px;
   }
 `;
 
@@ -25,7 +25,7 @@ export const ContainerImg = styled.div`
 export const CarrouselImg = styled.img`
   width: 100%;
   height: 100%;
-  padding: 20px;
+  /* padding: 20px; */
   opacity: 0;
   transition: 1s;
   &.loaded {
@@ -35,7 +35,7 @@ export const CarrouselImg = styled.img`
 
 export const ContainerButton = styled.div`
   position: relative;
-  top: -15px;
+  /* top: -5px; */
   button {
     margin: 0 5px;
     color: #fff;

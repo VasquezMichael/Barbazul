@@ -6,7 +6,7 @@ const OurServices = () => {
   return (
     <SectionServices>
       <Description />
-      <Services />;
+      <Services />
     </SectionServices>
   );
 };

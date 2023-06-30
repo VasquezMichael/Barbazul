@@ -44,18 +44,6 @@ const Services = () => {
             </p>
           </div>
         </li>
-        {/* <li>
-          <div className="icon">
-            <RxScissors />
-          </div>
-          <div className="description">
-            <h3>Rapado</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Molestiae deleniti
-            </p>
-          </div>
-        </li> */}
       </ul>
     </ContainerServices>
   );

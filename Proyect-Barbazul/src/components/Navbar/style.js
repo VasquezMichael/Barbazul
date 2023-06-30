@@ -1,11 +1,27 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  position: fixed;
   width: 100%;
   min-width: 300px;
-  height: 80px;
+  height: 100px;
   background-color: #0f0f0f;
   color: #fff;
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+  @media screen and (min-width: 690px) {
+    opacity: 0.5;
+    &.scrolled {
+      opacity: 0.9;
+      height: 120px;
+    }
+  }
+  @media screen and (max-width: 690px) {
+    &.scrolled {
+      height: 80px;
+      opacity: 0.9;
+    }
+  }
 `;
 
 export const Wrapper = styled.div`

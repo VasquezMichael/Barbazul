@@ -5,6 +5,7 @@ import { Container } from "./style";
 const AboutUsWithCarrousel = () => {
   return (
     <Container>
+      <div className="contenedor"></div>
       <Carrousel />
       <AboutUs />
     </Container>

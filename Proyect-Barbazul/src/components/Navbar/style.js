@@ -4,7 +4,7 @@ export const Container = styled.div`
   position: fixed;
   width: 100%;
   min-width: 300px;
-  height: 100px;
+  height: 90px;
   background-color: #0f0f0f;
   color: #fff;
   transition: all 0.3s ease-in-out;
@@ -13,7 +13,7 @@ export const Container = styled.div`
     opacity: 0.5;
     &.scrolled {
       opacity: 0.9;
-      height: 120px;
+      height: 100px;
     }
   }
   @media screen and (max-width: 690px) {

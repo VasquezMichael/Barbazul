@@ -37,5 +37,13 @@ export const ContainerServices = styled.div`
   }
   @media screen and (min-width: 690px) {
     margin-left: 20px;
+    .description {
+      h3 {
+        font-size: 1.4rem;
+      }
+    }
+    li {
+      margin-bottom: 30px;
+    }
   }
 `;

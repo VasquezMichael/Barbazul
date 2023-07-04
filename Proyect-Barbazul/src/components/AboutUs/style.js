@@ -4,12 +4,14 @@ export const ContainerAboutUs = styled.section`
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: #0f0f0f;
+  /* background-color: #0f0f0f; */
   color: #fff;
   font-family: Newsreader;
 
   @media screen and (min-width: 690px) {
     width: 80%;
+    height: 100%;
+    justify-content: space-evenly;
     margin-left: 20px;
   }
 `;
@@ -24,7 +26,7 @@ export const TitleAboutUs = styled.h3`
   font-size: 1.2rem;
   font-weight: bold;
   opacity: 0.7;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 `;
 export const Parragraf = styled.p`
   line-height: 130%;
@@ -33,7 +35,7 @@ export const Parragraf = styled.p`
 export const ContainerButtons = styled.div`
   display: flex;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 30px;
 
   button {
     border: 1px solid #fff;

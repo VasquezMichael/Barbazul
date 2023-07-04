@@ -16,6 +16,8 @@ export const ContainerCarrousel = styled.div`
 `;
 
 export const ContainerImg = styled.div`
+  display: flex;
+  justify-content: center;
   height: 300px;
   width: 100%;
   @media screen and (min-width: 690px) {

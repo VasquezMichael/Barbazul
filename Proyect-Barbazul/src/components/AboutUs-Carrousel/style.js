@@ -9,6 +9,11 @@ export const Container = styled.div`
     display: flex;
     justify-content: center;
     padding: 50px;
-    align-items: flex-start;
+    align-items: center;
+    height: 550px;
+  }
+
+  @media screen and (min-width: 1660px) {
+    padding: 100px 200px 100px 200px;
   }
 `;

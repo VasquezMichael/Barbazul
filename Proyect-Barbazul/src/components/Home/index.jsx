@@ -4,6 +4,7 @@ import AboutUsWithCarrousel from "../AboutUs-Carrousel";
 import { Home } from "./style.js";
 import OurServices from "../OurServices";
 import OurTeam from "../OurTeam";
+import OurJobs from "../OurJobs";
 const HomePage = () => {
   return (
     <Home>
@@ -11,6 +12,7 @@ const HomePage = () => {
       <AboutUsWithCarrousel />
       <OurServices />
       <OurTeam />
+      <OurJobs />
     </Home>
   );
 };

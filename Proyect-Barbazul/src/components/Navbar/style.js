@@ -8,7 +8,7 @@ export const Container = styled.div`
   background-color: #0f0f0f;
   color: #fff;
   transition: all 0.3s ease-in-out;
-  z-index: 1;
+  z-index: 100;
   @media screen and (min-width: 690px) {
     opacity: 0.5;
     &.scrolled {

@@ -8,10 +8,12 @@ import "swiper/css/navigation";
 
 import { Navigation, Pagination, EffectCoverflow } from "swiper/modules";
 
-import img1 from "../../../assets/hero.jpg";
-import img2 from "../../../assets/hero2.jpg";
-import img3 from "../../../assets/two-image1.jpg";
-import img4 from "../../../assets/two-image2.jpg";
+import img1 from "../../../assets/corte1.jpg";
+import img2 from "../../../assets/corte2.jpg";
+import img3 from "../../../assets/corte3.jpg";
+import img4 from "../../../assets/corte4.jpg";
+import img5 from "../../../assets/corte5.jpg";
+import img6 from "../../../assets/corte6.jpg";
 
 const JobsSlider = () => {
   return (
@@ -29,7 +31,6 @@ const JobsSlider = () => {
           depth: 100,
           modifier: 2.5,
         }}
-        // pagination={{ el: ".swiper-pagination", clickable: true }}
         navigation={{
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
@@ -48,6 +49,12 @@ const JobsSlider = () => {
         </SwiperSlide>
         <SwiperSlide className="Swiper-img-container">
           <img src={img4} alt="" />
+        </SwiperSlide>
+        <SwiperSlide className="Swiper-img-container">
+          <img src={img5} alt="" />
+        </SwiperSlide>
+        <SwiperSlide className="Swiper-img-container">
+          <img src={img6} alt="" />
         </SwiperSlide>
 
         <div className="slider-controler">

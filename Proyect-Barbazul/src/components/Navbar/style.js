@@ -1,10 +1,10 @@
 import styled from "styled-components";
-
+import logo from "../../assets/Logo.png";
 export const Container = styled.div`
   position: fixed;
   width: 100%;
   min-width: 300px;
-  height: 90px;
+  height: 100px;
   background-color: #0f0f0f;
   color: #fff;
   transition: all 0.3s ease-in-out;
@@ -13,13 +13,19 @@ export const Container = styled.div`
     opacity: 0.5;
     &.scrolled {
       opacity: 0.9;
-      height: 100px;
+      height: 110px;
+    }
+    .Logo-Container img {
+      width: 95px;
     }
   }
   @media screen and (max-width: 690px) {
     &.scrolled {
-      height: 80px;
+      height: 90px;
       opacity: 0.9;
+    }
+    .Logo-Container img {
+      width: 80px;
     }
   }
 `;
@@ -36,11 +42,9 @@ export const Wrapper = styled.div`
 export const LogoContainer = styled.div`
   align-items: center;
   display: flex;
-  font-size: 2rem;
-  font-family: Newsreader;
   margin-left: 30px;
-  p {
-    color: #fdcd52;
+  img {
+    width: 90px;
   }
   @media screen and (max-width: 690px) {
     margin-left: 20px;
@@ -54,12 +58,11 @@ export const Menu = styled.ul`
   justify-content: space-between;
   list-style: none;
   margin-right: 20px;
-
+  top: 80px;
   @media screen and (max-width: 690px) {
     position: absolute;
     background-color: #0f0f0f;
-    /* top: ${({ open }) => (open ? "80px" : "-550%")}; */
-    top: 80px;
+    top: 90px;
     left: ${({ open }) => (open ? "0" : "-100%")};
     width: 100%;
     height: 60vh;

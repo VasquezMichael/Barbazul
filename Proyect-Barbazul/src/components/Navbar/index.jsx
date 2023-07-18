@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Link.css";
 import { useState, useEffect } from "react";
-
+import Logo from "../../assets/logo.png";
 const NavBar = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -29,9 +29,8 @@ const NavBar = () => {
   return (
     <Container className={scrolled ? "scrolled" : ""}>
       <Wrapper>
-        <LogoContainer>
-          {/* <FaEarlybirds /> */}
-          <p>BARBERIA</p>
+        <LogoContainer className="Logo-Container">
+          <img src={Logo} alt="" />
         </LogoContainer>
         <MobileIcon onClick={() => setShowMobileMenu(!showMobileMenu)}>
           {showMobileMenu ? <FaTimes /> : <FaBars />}

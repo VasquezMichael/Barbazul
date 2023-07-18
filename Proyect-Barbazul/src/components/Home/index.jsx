@@ -5,6 +5,7 @@ import { Home } from "./style.js";
 import OurServices from "../OurServices";
 import OurTeam from "../OurTeam";
 import OurJobs from "../OurJobs";
+import Footer from "../Footer";
 const HomePage = () => {
   return (
     <Home>
@@ -13,6 +14,7 @@ const HomePage = () => {
       <OurServices />
       <OurTeam />
       <OurJobs />
+      <Footer />
     </Home>
   );
 };

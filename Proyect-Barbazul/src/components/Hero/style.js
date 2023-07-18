@@ -1,8 +1,6 @@
 import styled from "styled-components";
 import hero from "../../assets/hero2.jpg";
-import img1 from "../../assets/two-image1.jpg";
-import img2 from "../../assets/two-image2.jpg";
-import img3 from "../../assets/two-image3.jpg";
+
 export const Container = styled.div`
   display: flex;
   background-image: linear-gradient(

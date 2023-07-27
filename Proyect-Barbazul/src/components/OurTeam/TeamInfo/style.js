@@ -5,7 +5,6 @@ export const Container = styled.div`
   flex-direction: column;
   width: 100%;
   font-family: Newsreader;
-  margin-top: 20px;
   margin-bottom: 25px;
   h2 {
     font-size: 2rem;
@@ -25,7 +24,7 @@ export const Container = styled.div`
     color: #fff;
     transition: all 0.6s ease;
     margin-top: 15px;
-    width: 30%;
+    width: 32%;
     :hover {
       background-color: #fdcd52;
       color: #000;

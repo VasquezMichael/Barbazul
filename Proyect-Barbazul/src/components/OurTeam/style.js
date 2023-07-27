@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 export const SectionTeam = styled.section`
   width: 100%;
-  /* text-align: center; */
   padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 `;
 
 export const ContainerTeam = styled.div`

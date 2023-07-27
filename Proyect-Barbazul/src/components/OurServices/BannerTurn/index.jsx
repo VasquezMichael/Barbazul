@@ -1,6 +1,7 @@
 import React from "react";
 import { BannerContainer } from "./style";
 import { BsCalendar2Plus } from "react-icons/bs";
+import { Link } from "react-router-dom";
 const BannerTurn = () => {
   return (
     <BannerContainer>
@@ -19,7 +20,9 @@ const BannerTurn = () => {
       </div>
 
       <div className="Btn">
-        <button>RESERVAR TURNO</button>
+        <Link to="https://wa.link/xacqvq" target="_blank">
+          <button>RESERVAR TURNO</button>
+        </Link>
       </div>
     </BannerContainer>
   );

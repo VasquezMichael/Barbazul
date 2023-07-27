@@ -6,7 +6,7 @@ import BannerTurn from "./BannerTurn";
 const OurServices = () => {
   return (
     <>
-      <SectionServices>
+      <SectionServices id="Servicios">
         <Description />
         <Services />
       </SectionServices>

@@ -4,8 +4,8 @@ export const SectionServices = styled.section`
   width: 100%;
   height: auto;
   padding: 20px;
-  margin-top: 20px;
-
+  margin-top: 80px;
+  margin-bottom: 70px;
   @media screen and (min-width: 690px) {
     display: flex;
     align-items: center;

@@ -4,10 +4,10 @@ export const ContainerAboutUs = styled.section`
   display: flex;
   flex-direction: column;
   width: 100%;
-  /* background-color: #0f0f0f; */
   color: #fff;
   font-family: Newsreader;
-
+  margin-top: 30px;
+  margin-bottom: 20px;
   @media screen and (min-width: 690px) {
     width: 80%;
     height: 100%;

@@ -6,6 +6,8 @@ import {
   Parragraf,
   ContainerButtons,
 } from "./style";
+
+import { Link } from "react-scroll";
 const AboutUs = () => {
   return (
     <ContainerAboutUs>
@@ -28,8 +30,30 @@ const AboutUs = () => {
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
       </Parragraf>
       <ContainerButtons>
-        <button className="Btn-servicios">Nuestros servicios</button>
-        <button className="Btn-barberos">Nuestros barberos</button>
+        <button className="Btn-servicios">
+          <Link
+            activeClass="active"
+            to="servicios"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={1000}
+          >
+            Nuestros servicios
+          </Link>
+        </button>
+        <button className="Btn-barberos">
+          <Link
+            activeClass="active"
+            to="our-team"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={1000}
+          >
+            Nuestros barberos
+          </Link>
+        </button>
       </ContainerButtons>
     </ContainerAboutUs>
   );

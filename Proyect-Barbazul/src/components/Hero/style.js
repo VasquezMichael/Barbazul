@@ -5,12 +5,13 @@ export const Container = styled.div`
   display: flex;
   background-image: linear-gradient(
       0deg,
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7)
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
     ),
     url(${hero});
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
   background-position: center center;
   color: #fff;
   width: 100%;
@@ -19,6 +20,7 @@ export const Container = styled.div`
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
+  position: relative;
 `;
 
 export const Title = styled.h1`

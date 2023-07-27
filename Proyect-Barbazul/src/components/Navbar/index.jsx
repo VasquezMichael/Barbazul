@@ -6,10 +6,11 @@ import {
   LogoContainer,
   MobileIcon,
 } from "./style.js";
-import { Link } from "react-router-dom";
+
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Link.css";
 import { useState, useEffect } from "react";
+import { Link } from "react-scroll";
 import Logo from "../../assets/logo.png";
 const NavBar = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -36,28 +37,73 @@ const NavBar = () => {
           {showMobileMenu ? <FaTimes /> : <FaBars />}
         </MobileIcon>
         <Menu open={showMobileMenu}>
-          <MenuItem onClick={() => setShowMobileMenu(!showMobileMenu)}>
-            <Link className="Link" to="/">
+          <MenuItem>
+            <Link
+              className="Link"
+              activeClass="active"
+              to="hero"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={1000}
+              onClick={() => setShowMobileMenu(!showMobileMenu)}
+            >
               Home
             </Link>
           </MenuItem>
-          <MenuItem onClick={() => setShowMobileMenu(!showMobileMenu)}>
-            <Link className="Link" to="/servicios">
+          <MenuItem>
+            <Link
+              className="Link"
+              activeClass="active"
+              to="servicios"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={1000}
+              onClick={() => setShowMobileMenu(!showMobileMenu)}
+            >
               Servicios
             </Link>
           </MenuItem>
-          <MenuItem onClick={() => setShowMobileMenu(!showMobileMenu)}>
-            <Link className="Link" to="/staff">
-              Staff
+          <MenuItem>
+            <Link
+              className="Link"
+              activeClass="active"
+              to="our-team"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={1000}
+              onClick={() => setShowMobileMenu(!showMobileMenu)}
+            >
+              Equipo
             </Link>
           </MenuItem>
-          <MenuItem onClick={() => setShowMobileMenu(!showMobileMenu)}>
-            <Link className="Link" to="/galeria">
+          <MenuItem>
+            <Link
+              className="Link"
+              activeClass="active"
+              to="our-jobs"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={1000}
+              onClick={() => setShowMobileMenu(!showMobileMenu)}
+            >
               Galeria
             </Link>
           </MenuItem>
-          <MenuItem onClick={() => setShowMobileMenu(!showMobileMenu)}>
-            <Link className="Link" to="/contacto">
+          <MenuItem>
+            <Link
+              className="Link"
+              activeClass="active"
+              to="footer"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={1000}
+              onClick={() => setShowMobileMenu(!showMobileMenu)}
+            >
               Contacto
             </Link>
           </MenuItem>

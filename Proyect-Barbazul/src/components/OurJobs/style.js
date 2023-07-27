@@ -5,7 +5,7 @@ export const Section = styled.section`
   width: 100%;
   height: auto;
   padding: 20px;
-
+  margin-top: 50px;
   /* Primera opcion
   @media screen and (min-width: 690px) {
     padding: 60px;

@@ -8,6 +8,7 @@ const Footer = () => {
       <Section>
         <Logo />
         <Icons />
+        <p>vasquez.michael.steven@gmail.com</p>
         <p>© BarberShop, todos los derechos reservados</p>
       </Section>
       <Credits />

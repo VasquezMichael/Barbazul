@@ -6,7 +6,7 @@ const Hero = () => {
       <Container className="Hero">
         <Title>Since 2010.</Title>
         <Button>
-          <Link to="" target="_blank">
+          <Link to="https://wa.link/xacqvq" target="_blank">
             RESERVA TU TURNO
           </Link>
         </Button>

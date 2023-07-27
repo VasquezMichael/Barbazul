@@ -7,7 +7,7 @@ export const ContainerCarrousel = styled.div`
   align-items: center;
   width: 100%;
   height: 100%;
-
+  margin-top: 20px;
   @media screen and (min-width: 690px) {
     width: 80%;
     height: 432px;

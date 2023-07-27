@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "./style";
-
+import { Link } from "react-router-dom";
 import {
   AiFillFacebook,
   AiFillInstagram,
@@ -12,9 +12,15 @@ export const Icons = () => {
     <Container>
       <div className="lineLeft"></div>
       <div className="container-icons">
-        <AiFillFacebook className="icon" />
-        <AiFillInstagram className="icon" />
-        <AiOutlineWhatsApp className="icon" />
+        <Link to="https://www.linkedin.com/feed/" target="_blank">
+          <AiFillFacebook className="icon" />
+        </Link>
+        <Link to="https://www.instagram.com/__michaelsteven/" target="_blank">
+          <AiFillInstagram className="icon" />
+        </Link>
+        <Link to="https://wa.link/xacqvq" target="_blank">
+          <AiOutlineWhatsApp className="icon" />
+        </Link>
       </div>
       <div className="lineRight"></div>
     </Container>

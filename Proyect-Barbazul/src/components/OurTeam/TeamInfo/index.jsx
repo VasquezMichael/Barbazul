@@ -1,5 +1,5 @@
 import { Container } from "./style";
-
+import { Link } from "react-router-dom";
 const TeamInfo = () => {
   return (
     <Container>
@@ -9,7 +9,9 @@ const TeamInfo = () => {
         laudantium repellat sequi! A sequi quas quaerat aspernatur similique ut
         laborum hic at deserunt, mollitia repellat alias? Impedit, nisi veniam!
       </p>
-      <button>Contactanos</button>
+      <Link to="https://wa.link/xacqvq" target="_blank">
+        <button>Contactanos</button>
+      </Link>
     </Container>
   );
 };

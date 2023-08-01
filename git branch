@@ -1,0 +1,14 @@
+[33mbfb102b[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Finalizamos los ultimos detalles, agregamos los Link para la navegacion dentro de la pagina y fuera
+[33m41e1fc9[m Finalizamos el footer
+[33mf951aef[m Finalizamos la seccion Nuestros trabajos, vista mobile y desktop.
+[33mdd9c0c6[m Empezamos a usar Swiper para hacer el slider de la seccion Galeria. Aun debo investigar mas al respecto
+[33me3c0773[m Finalizamos con la seccion de Equipo de trabajo
+[33mfcd56f7[m Finalizamos la seccion servicios
+[33ma8cc809[m Terminamos la seccion de servicios y modificamos el navbar para dejarlo fijo, con algunos estilos extra
+[33m9fbaed1[m Agregamos la seccion de Servicios
+[33m4f4c6ba[m Agregamos el componente AboutUs
+[33m50ffd5f[m Creamos el componente Carrousel y toda su funcionalidad
+[33m94138e3[m Finalizamos el navbar y hero
+[33maf71301[m Terminamos el navbar
+[33mef59352[m Avanzamos con el navbar
+[33m3a9822a[m Initial commit

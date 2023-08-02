@@ -1,6 +1,6 @@
 import React from "react";
 import { ContainerDescriptions } from "./style.js";
-const Description = () => {
+export const Description = () => {
   return (
     <ContainerDescriptions>
       <h2>Servicios</h2>
@@ -14,5 +14,3 @@ const Description = () => {
     </ContainerDescriptions>
   );
 };
-
-export default Description;

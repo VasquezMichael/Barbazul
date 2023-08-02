@@ -1,13 +1,12 @@
-import React from "react";
-import AboutUs from "../AboutUs";
 import Carrousel from "../Carrousel";
+import AboutUs from "../About-us";
 import { Container } from "./style";
 const AboutUsWithCarrousel = () => {
   return (
     <Container>
       <div className="contenedor"></div>
-      <Carrousel />
       <AboutUs />
+      <Carrousel />
     </Container>
   );
 };

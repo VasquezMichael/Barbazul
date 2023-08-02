@@ -11,7 +11,8 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import "./Link.css";
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
-import Logo from "../../assets/logo.png";
+
+import Logo from "../../assets/Logo.png";
 const NavBar = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   const [scrolled, setScrolled] = useState(false);
